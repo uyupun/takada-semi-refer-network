@@ -1,6 +1,12 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import ForceGraph from 'force-graph';
+  import ForceGraph, { type NodeObject } from 'force-graph';
+
+  type Node = NodeObject & {
+    title: string;
+    path: string;
+    author: string | null;
+  };
 
   let container: HTMLDivElement;
 
@@ -34,11 +40,11 @@
       buildAuthorColors(),
     ]);
 
-    new ForceGraph(container)
+    new ForceGraph<Node>(container)
       .graphData(data)
-      .nodeColor((node: any) => authorColors[node.author] ?? '#aaaaaa')
+      .nodeColor((node) => authorColors[node.author ?? ''] ?? '#aaaaaa')
       .nodeCanvasObjectMode(() => 'after')
-      .nodeCanvasObject((node: any, ctx: CanvasRenderingContext2D) => {
+      .nodeCanvasObject((node, ctx) => {
         ctx.font = '2px sans-serif';
         ctx.fillStyle = '#000000';
         ctx.textAlign = 'center';
