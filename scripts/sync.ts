@@ -35,8 +35,13 @@ function extractTitle(html: string): string {
 function extractLinks(html: string): string[] {
   const root = parse(html);
   return root
-    .querySelectorAll("main a[href]")
-    .map((a) => normalizePath(a.getAttribute("href")!))
+    .querySelectorAll(".sl-markdown-content a[href]")
+    .map((a) => {
+      const href = a.getAttribute("href")!;
+      if (href.startsWith(BASE_URL)) return href.slice(BASE_URL.length);
+      return href;
+    })
+    .map(normalizePath)
     .filter((href) => href.startsWith("/"));
 }
 

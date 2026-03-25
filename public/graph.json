@@ -537,120 +537,8 @@
   ],
   "links": [
     {
-      "source": "/concept",
-      "target": "/presentations/2025/02-12/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/02-12/kazukichi",
-      "target": "/concept"
-    },
-    {
-      "source": "/presentations/2025/02-12/kazukichi",
-      "target": "/presentations/2025/02-12/takashi"
-    },
-    {
-      "source": "/presentations/2025/02-12/takashi",
-      "target": "/presentations/2025/02-12/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/02-12/takashi",
-      "target": "/presentations/2025/02-19/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/02-19/kazukichi",
-      "target": "/presentations/2025/02-12/takashi"
-    },
-    {
-      "source": "/presentations/2025/02-19/kazukichi",
-      "target": "/presentations/2025/02-19/takashi"
-    },
-    {
-      "source": "/presentations/2025/02-19/takashi",
-      "target": "/presentations/2025/02-19/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/02-19/takashi",
-      "target": "/presentations/2025/02-27/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/02-27/kazukichi",
-      "target": "/presentations/2025/02-19/takashi"
-    },
-    {
-      "source": "/presentations/2025/02-27/kazukichi",
-      "target": "/presentations/2025/02-27/takashi"
-    },
-    {
-      "source": "/presentations/2025/02-27/takashi",
-      "target": "/presentations/2025/02-27/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/02-27/takashi",
-      "target": "/presentations/2025/03-06/takashi"
-    },
-    {
-      "source": "/presentations/2025/03-06/takashi",
-      "target": "/presentations/2025/02-27/takashi"
-    },
-    {
-      "source": "/presentations/2025/03-06/takashi",
-      "target": "/presentations/2025/03-12/murata"
-    },
-    {
-      "source": "/presentations/2025/03-12/murata",
-      "target": "/presentations/2025/03-06/takashi"
-    },
-    {
-      "source": "/presentations/2025/03-12/murata",
-      "target": "/presentations/2025/03-12/takashi"
-    },
-    {
-      "source": "/presentations/2025/03-12/takashi",
-      "target": "/presentations/2025/03-12/murata"
-    },
-    {
-      "source": "/presentations/2025/03-12/takashi",
-      "target": "/presentations/2025/03-18/murata"
-    },
-    {
-      "source": "/presentations/2025/03-18/murata",
-      "target": "/presentations/2025/03-12/takashi"
-    },
-    {
-      "source": "/presentations/2025/03-18/murata",
+      "source": "/presentations/2025/04-18/kazukichi",
       "target": "/presentations/2025/04-02/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/04-02/kazukichi",
-      "target": "/presentations/2025/03-18/murata"
-    },
-    {
-      "source": "/presentations/2025/04-02/kazukichi",
-      "target": "/presentations/2025/04-09/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/04-09/kazukichi",
-      "target": "/presentations/2025/04-02/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/04-09/kazukichi",
-      "target": "/presentations/2025/04-09/murata"
-    },
-    {
-      "source": "/presentations/2025/04-09/murata",
-      "target": "/presentations/2025/04-09/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/04-09/murata",
-      "target": "/presentations/2025/04-09/takashi"
-    },
-    {
-      "source": "/presentations/2025/04-09/takashi",
-      "target": "/presentations/2025/04-09/murata"
-    },
-    {
-      "source": "/presentations/2025/04-09/takashi",
-      "target": "/presentations/2025/04-18/kazukichi"
     },
     {
       "source": "/presentations/2025/04-18/kazukichi",
@@ -658,167 +546,47 @@
     },
     {
       "source": "/presentations/2025/04-18/kazukichi",
-      "target": "/presentations/2025/04-23/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/04-23/kazukichi",
-      "target": "/presentations/2025/04-18/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/04-23/kazukichi",
-      "target": "/presentations/2025/04-30/kazukichi"
+      "target": "/presentations/2025/02-27/takashi"
     },
     {
       "source": "/presentations/2025/04-30/kazukichi",
-      "target": "/presentations/2025/04-23/kazukichi"
+      "target": "/presentations/2025/04-09/murata"
     },
     {
       "source": "/presentations/2025/04-30/kazukichi",
-      "target": "/presentations/2025/04-30/murata"
+      "target": "/presentations/2025/04-02/kazukichi"
     },
     {
-      "source": "/presentations/2025/04-30/murata",
+      "source": "/presentations/2025/04-30/kazukichi",
+      "target": "/presentations/2025/04-09/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/05-07/kazukichi",
       "target": "/presentations/2025/04-30/kazukichi"
     },
     {
-      "source": "/presentations/2025/04-30/murata",
-      "target": "/presentations/2025/05-07/kazukichi"
-    },
-    {
       "source": "/presentations/2025/05-07/kazukichi",
-      "target": "/presentations/2025/04-30/murata"
-    },
-    {
-      "source": "/presentations/2025/05-07/kazukichi",
-      "target": "/presentations/2025/05-07/takashi"
-    },
-    {
-      "source": "/presentations/2025/05-07/takashi",
-      "target": "/presentations/2025/05-07/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/05-07/takashi",
-      "target": "/presentations/2025/05-14/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/05-14/kazukichi",
-      "target": "/presentations/2025/05-07/takashi"
-    },
-    {
-      "source": "/presentations/2025/05-14/kazukichi",
-      "target": "/presentations/2025/05-22/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/05-22/kazukichi",
-      "target": "/presentations/2025/05-14/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/05-22/kazukichi",
-      "target": "/presentations/2025/05-30/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/05-30/kazukichi",
-      "target": "/presentations/2025/05-22/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/05-30/kazukichi",
-      "target": "/presentations/2025/05-30/takashi"
-    },
-    {
-      "source": "/presentations/2025/05-30/takashi",
-      "target": "/presentations/2025/05-30/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/05-30/takashi",
-      "target": "/presentations/2025/06-05/kazukichi"
+      "target": "/presentations/2025/04-30/kazukichi"
     },
     {
       "source": "/presentations/2025/06-05/kazukichi",
-      "target": "/presentations/2025/05-30/takashi"
-    },
-    {
-      "source": "/presentations/2025/06-05/kazukichi",
-      "target": "/presentations/2025/06-05/murata"
-    },
-    {
-      "source": "/presentations/2025/06-05/murata",
-      "target": "/presentations/2025/06-05/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/06-05/murata",
-      "target": "/presentations/2025/06-19/kazukichi"
+      "target": "/presentations/2025/02-19/takashi"
     },
     {
       "source": "/presentations/2025/06-19/kazukichi",
-      "target": "/presentations/2025/06-05/murata"
-    },
-    {
-      "source": "/presentations/2025/06-19/kazukichi",
-      "target": "/presentations/2025/06-19/takashi"
-    },
-    {
-      "source": "/presentations/2025/06-19/takashi",
-      "target": "/presentations/2025/06-19/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/06-19/takashi",
-      "target": "/presentations/2025/06-25/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/06-25/kazukichi",
-      "target": "/presentations/2025/06-19/takashi"
-    },
-    {
-      "source": "/presentations/2025/06-25/kazukichi",
-      "target": "/presentations/2025/07-02/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/07-02/kazukichi",
-      "target": "/presentations/2025/06-25/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/07-02/kazukichi",
-      "target": "/presentations/2025/07-07/kazukichi"
+      "target": "/presentations/2025/04-23/kazukichi"
     },
     {
       "source": "/presentations/2025/07-07/kazukichi",
-      "target": "/presentations/2025/07-02/kazukichi"
+      "target": "/presentations/2025/04-30/kazukichi"
     },
     {
       "source": "/presentations/2025/07-07/kazukichi",
-      "target": "/presentations/2025/07-07/murata"
+      "target": "/presentations/2025/05-07/kazukichi"
     },
     {
-      "source": "/presentations/2025/07-07/murata",
-      "target": "/presentations/2025/07-07/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/07-07/murata",
-      "target": "/presentations/2025/07-24/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/07-24/kazukichi",
-      "target": "/presentations/2025/07-07/murata"
-    },
-    {
-      "source": "/presentations/2025/07-24/kazukichi",
-      "target": "/presentations/2025/07-24/murata"
-    },
-    {
-      "source": "/presentations/2025/07-24/murata",
-      "target": "/presentations/2025/07-24/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/07-24/murata",
-      "target": "/presentations/2025/07-24/takashi"
-    },
-    {
-      "source": "/presentations/2025/07-24/takashi",
-      "target": "/presentations/2025/07-24/murata"
-    },
-    {
-      "source": "/presentations/2025/07-24/takashi",
-      "target": "/presentations/2025/07-29/kazukichi"
+      "source": "/presentations/2025/07-07/kazukichi",
+      "target": "/presentations/2025/05-14/kazukichi"
     },
     {
       "source": "/presentations/2025/07-29/kazukichi",
@@ -826,411 +594,107 @@
     },
     {
       "source": "/presentations/2025/07-29/kazukichi",
-      "target": "/presentations/2025/07-29/takashi"
+      "target": "/presentations/2025/04-30/kazukichi"
     },
     {
-      "source": "/presentations/2025/07-29/takashi",
-      "target": "/presentations/2025/07-29/kazukichi"
+      "source": "/presentations/2025/07-29/kazukichi",
+      "target": "/presentations/2025/05-07/kazukichi"
     },
     {
-      "source": "/presentations/2025/07-29/takashi",
-      "target": "/presentations/2025/08-05/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/08-05/kazukichi",
-      "target": "/presentations/2025/07-29/takashi"
-    },
-    {
-      "source": "/presentations/2025/08-05/kazukichi",
-      "target": "/presentations/2025/08-20/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/08-20/kazukichi",
-      "target": "/presentations/2025/08-05/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/08-20/kazukichi",
-      "target": "/presentations/2025/08-20/takashi"
-    },
-    {
-      "source": "/presentations/2025/08-20/takashi",
-      "target": "/presentations/2025/08-20/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/08-20/takashi",
-      "target": "/presentations/2025/08-27/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/08-27/kazukichi",
-      "target": "/presentations/2025/08-20/takashi"
-    },
-    {
-      "source": "/presentations/2025/08-27/kazukichi",
-      "target": "/presentations/2025/09-04/kazukichi"
+      "source": "/presentations/2025/07-29/kazukichi",
+      "target": "/presentations/2025/04-30/murata"
     },
     {
       "source": "/presentations/2025/09-04/kazukichi",
       "target": "/presentations/2025/08-27/kazukichi"
     },
     {
-      "source": "/presentations/2025/09-04/kazukichi",
-      "target": "/presentations/2025/09-04/takashi"
+      "source": "/presentations/2025/09-11/kazukichi",
+      "target": "/presentations/2025/08-27/kazukichi"
     },
     {
-      "source": "/presentations/2025/09-04/takashi",
+      "source": "/presentations/2025/09-11/kazukichi",
       "target": "/presentations/2025/09-04/kazukichi"
     },
     {
-      "source": "/presentations/2025/09-04/takashi",
-      "target": "/presentations/2025/09-11/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/09-11/kazukichi",
-      "target": "/presentations/2025/09-04/takashi"
-    },
-    {
-      "source": "/presentations/2025/09-11/kazukichi",
-      "target": "/presentations/2025/09-16/kazukichi"
+      "source": "/presentations/2025/09-16/kazukichi",
+      "target": "/"
     },
     {
       "source": "/presentations/2025/09-16/kazukichi",
+      "target": "/presentations/2025/07-07/murata"
+    },
+    {
+      "source": "/presentations/2025/09-16/takashi",
       "target": "/presentations/2025/09-11/kazukichi"
     },
     {
-      "source": "/presentations/2025/09-16/kazukichi",
-      "target": "/presentations/2025/09-16/takashi"
-    },
-    {
-      "source": "/presentations/2025/09-16/takashi",
-      "target": "/presentations/2025/09-16/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/09-16/takashi",
-      "target": "/presentations/2025/09-24/kazukichi"
+      "source": "/presentations/2025/09-24/kazukichi",
+      "target": "/presentations/2025/09-11/kazukichi"
     },
     {
       "source": "/presentations/2025/09-24/kazukichi",
       "target": "/presentations/2025/09-16/takashi"
     },
     {
-      "source": "/presentations/2025/09-24/kazukichi",
-      "target": "/presentations/2025/09-29/kazukichi"
-    },
-    {
       "source": "/presentations/2025/09-29/kazukichi",
       "target": "/presentations/2025/09-24/kazukichi"
     },
     {
-      "source": "/presentations/2025/09-29/kazukichi",
-      "target": "/presentations/2025/09-29/takashi"
+      "source": "/presentations/2025/09-29/takashi",
+      "target": "/presentations/2025/09-16/takashi"
     },
     {
-      "source": "/presentations/2025/09-29/takashi",
+      "source": "/presentations/2025/10-08/kazukichi",
       "target": "/presentations/2025/09-29/kazukichi"
     },
     {
-      "source": "/presentations/2025/09-29/takashi",
-      "target": "/presentations/2025/10-08/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/10-08/kazukichi",
+      "source": "/presentations/2025/10-08/takashi",
       "target": "/presentations/2025/09-29/takashi"
     },
     {
-      "source": "/presentations/2025/10-08/kazukichi",
-      "target": "/presentations/2025/10-08/takashi"
-    },
-    {
-      "source": "/presentations/2025/10-08/takashi",
+      "source": "/presentations/2025/10-22/kazukichi",
       "target": "/presentations/2025/10-08/kazukichi"
     },
     {
-      "source": "/presentations/2025/10-08/takashi",
-      "target": "/presentations/2025/10-15/kazukichi"
+      "source": "/presentations/2025/10-29/kazukichi",
+      "target": "/presentations/2025/09-24/kazukichi"
     },
     {
-      "source": "/presentations/2025/10-15/kazukichi",
-      "target": "/presentations/2025/10-08/takashi"
+      "source": "/presentations/2025/10-29/kazukichi",
+      "target": "/presentations/2025/09-29/kazukichi"
     },
     {
-      "source": "/presentations/2025/10-15/kazukichi",
-      "target": "/presentations/2025/10-22/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/10-22/kazukichi",
-      "target": "/presentations/2025/10-15/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/10-22/kazukichi",
-      "target": "/presentations/2025/10-29/kazukichi"
+      "source": "/presentations/2025/10-29/kazukichi",
+      "target": "/presentations/2025/10-08/kazukichi"
     },
     {
       "source": "/presentations/2025/10-29/kazukichi",
       "target": "/presentations/2025/10-22/kazukichi"
     },
     {
-      "source": "/presentations/2025/10-29/kazukichi",
-      "target": "/presentations/2025/11-06/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/11-06/kazukichi",
-      "target": "/presentations/2025/10-29/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/11-06/kazukichi",
+      "source": "/presentations/2025/11-25/murata",
       "target": "/presentations/2025/11-06/murata"
     },
     {
-      "source": "/presentations/2025/11-06/murata",
-      "target": "/presentations/2025/11-06/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/11-06/murata",
-      "target": "/presentations/2025/11-06/takashi"
-    },
-    {
-      "source": "/presentations/2025/11-06/takashi",
-      "target": "/presentations/2025/11-06/murata"
-    },
-    {
-      "source": "/presentations/2025/11-06/takashi",
-      "target": "/presentations/2025/11-10/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/11-10/kazukichi",
-      "target": "/presentations/2025/11-06/takashi"
-    },
-    {
-      "source": "/presentations/2025/11-10/kazukichi",
-      "target": "/presentations/2025/11-10/takashi"
-    },
-    {
-      "source": "/presentations/2025/11-10/takashi",
-      "target": "/presentations/2025/11-10/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/11-10/takashi",
-      "target": "/presentations/2025/11-25/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/11-25/kazukichi",
-      "target": "/presentations/2025/11-10/takashi"
-    },
-    {
-      "source": "/presentations/2025/11-25/kazukichi",
-      "target": "/presentations/2025/11-25/murata"
-    },
-    {
-      "source": "/presentations/2025/11-25/murata",
-      "target": "/presentations/2025/11-25/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/11-25/murata",
-      "target": "/presentations/2025/11-25/takashi"
-    },
-    {
-      "source": "/presentations/2025/11-25/takashi",
-      "target": "/presentations/2025/11-25/murata"
-    },
-    {
-      "source": "/presentations/2025/11-25/takashi",
-      "target": "/presentations/2025/12-04/kazukichi"
-    },
-    {
       "source": "/presentations/2025/12-04/kazukichi",
-      "target": "/presentations/2025/11-25/takashi"
-    },
-    {
-      "source": "/presentations/2025/12-04/kazukichi",
-      "target": "/presentations/2025/12-04/murata"
-    },
-    {
-      "source": "/presentations/2025/12-04/murata",
-      "target": "/presentations/2025/12-04/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/12-04/murata",
-      "target": "/presentations/2025/12-04/takashi"
-    },
-    {
-      "source": "/presentations/2025/12-04/takashi",
-      "target": "/presentations/2025/12-04/murata"
-    },
-    {
-      "source": "/presentations/2025/12-04/takashi",
-      "target": "/presentations/2025/12-18/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/12-18/kazukichi",
-      "target": "/presentations/2025/12-04/takashi"
-    },
-    {
-      "source": "/presentations/2025/12-18/kazukichi",
-      "target": "/presentations/2025/12-18/murata"
-    },
-    {
-      "source": "/presentations/2025/12-18/murata",
-      "target": "/presentations/2025/12-18/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/12-18/murata",
-      "target": "/presentations/2025/12-18/takashi"
-    },
-    {
-      "source": "/presentations/2025/12-18/takashi",
-      "target": "/presentations/2025/12-18/murata"
-    },
-    {
-      "source": "/presentations/2025/12-18/takashi",
-      "target": "/presentations/2025/12-22/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/12-22/kazukichi",
-      "target": "/presentations/2025/12-18/takashi"
-    },
-    {
-      "source": "/presentations/2025/12-22/kazukichi",
-      "target": "/presentations/2025/12-22/takashi"
-    },
-    {
-      "source": "/presentations/2025/12-22/takashi",
-      "target": "/presentations/2025/12-22/kazukichi"
-    },
-    {
-      "source": "/presentations/2025/12-22/takashi",
-      "target": "/presentations/2026/01-07/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/01-07/kazukichi",
-      "target": "/presentations/2025/12-22/takashi"
-    },
-    {
-      "source": "/presentations/2026/01-07/kazukichi",
-      "target": "/presentations/2026/01-07/takashi"
-    },
-    {
-      "source": "/presentations/2026/01-07/takashi",
-      "target": "/presentations/2026/01-07/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/01-07/takashi",
-      "target": "/presentations/2026/01-15/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/01-15/kazukichi",
-      "target": "/presentations/2026/01-07/takashi"
-    },
-    {
-      "source": "/presentations/2026/01-15/kazukichi",
-      "target": "/presentations/2026/01-20/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/01-20/kazukichi",
-      "target": "/presentations/2026/01-15/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/01-20/kazukichi",
-      "target": "/presentations/2026/01-20/murata"
-    },
-    {
-      "source": "/presentations/2026/01-20/murata",
-      "target": "/presentations/2026/01-20/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/01-20/murata",
-      "target": "/presentations/2026/01-20/takashi"
-    },
-    {
-      "source": "/presentations/2026/01-20/takashi",
-      "target": "/presentations/2026/01-20/murata"
-    },
-    {
-      "source": "/presentations/2026/01-20/takashi",
-      "target": "/presentations/2026/01-28/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/01-28/kazukichi",
-      "target": "/presentations/2026/01-20/takashi"
-    },
-    {
-      "source": "/presentations/2026/01-28/kazukichi",
-      "target": "/presentations/2026/01-28/murata"
-    },
-    {
-      "source": "/presentations/2026/01-28/murata",
-      "target": "/presentations/2026/01-28/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/01-28/murata",
-      "target": "/presentations/2026/02-04/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/02-04/kazukichi",
-      "target": "/presentations/2026/01-28/murata"
-    },
-    {
-      "source": "/presentations/2026/02-04/kazukichi",
-      "target": "/presentations/2026/02-13/kazukichi"
+      "target": "/presentations/2025/10-22/kazukichi"
     },
     {
       "source": "/presentations/2026/02-13/kazukichi",
-      "target": "/presentations/2026/02-04/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/02-13/kazukichi",
-      "target": "/presentations/2026/02-13/takashi"
-    },
-    {
-      "source": "/presentations/2026/02-13/takashi",
-      "target": "/presentations/2026/02-13/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/02-13/takashi",
-      "target": "/presentations/2026/02-17/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/02-17/kazukichi",
-      "target": "/presentations/2026/02-13/takashi"
-    },
-    {
-      "source": "/presentations/2026/02-17/kazukichi",
-      "target": "/presentations/2026/03-02/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/03-02/kazukichi",
-      "target": "/presentations/2026/02-17/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/03-02/kazukichi",
-      "target": "/presentations/2026/03-11/kazukichi"
+      "target": "/presentations/2025/07-24/kazukichi"
     },
     {
       "source": "/presentations/2026/03-11/kazukichi",
-      "target": "/presentations/2026/03-02/kazukichi"
+      "target": "/presentations/2025/04-30/kazukichi"
     },
     {
       "source": "/presentations/2026/03-11/kazukichi",
-      "target": "/presentations/2026/03-11/murata"
+      "target": "/presentations/2025/05-07/kazukichi"
     },
     {
-      "source": "/presentations/2026/03-11/murata",
-      "target": "/presentations/2026/03-11/kazukichi"
-    },
-    {
-      "source": "/presentations/2026/03-11/murata",
-      "target": "/presentations/2026/03-11/nakamu"
-    },
-    {
-      "source": "/presentations/2026/03-11/nakamu",
-      "target": "/presentations/2026/03-11/murata"
-    },
-    {
-      "source": "/presentations/2026/03-11/nakamu",
-      "target": "/presentations/2026/03-11/takashi"
-    },
-    {
-      "source": "/presentations/2026/03-11/takashi",
-      "target": "/presentations/2026/03-11/nakamu"
+      "source": "/presentations/2026/03-11/kazukichi",
+      "target": "/presentations/2025/04-09/murata"
     }
   ]
 }
