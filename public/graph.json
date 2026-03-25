@@ -1,0 +1,1147 @@
+{
+  "nodes": [
+    {
+      "id": "/",
+      "title": "高田ゼミ | 高田ゼミ",
+      "path": "/"
+    },
+    {
+      "id": "/concept",
+      "title": "コンセプト | 高田ゼミ",
+      "path": "/concept"
+    },
+    {
+      "id": "/presentations/2025/02-12/kazukichi",
+      "title": "ヒューマンインタフェースとダグラス・エンゲルバート | 高田ゼミ",
+      "path": "/presentations/2025/02-12/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/02-12/takashi",
+      "title": "CustomPainterとAnimationControllerを使用したアニメーションの作成 | 高田ゼミ",
+      "path": "/presentations/2025/02-12/takashi"
+    },
+    {
+      "id": "/presentations/2025/02-19/kazukichi",
+      "title": "ヴァネヴァー・ブッシュと『As We May Think』 | 高田ゼミ",
+      "path": "/presentations/2025/02-19/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/02-19/takashi",
+      "title": "Whisk | 高田ゼミ",
+      "path": "/presentations/2025/02-19/takashi"
+    },
+    {
+      "id": "/presentations/2025/02-27/kazukichi",
+      "title": "続・ダグラス・エンゲルバートのサーベイ | 高田ゼミ",
+      "path": "/presentations/2025/02-27/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/02-27/takashi",
+      "title": "React Create App との別れ | 高田ゼミ",
+      "path": "/presentations/2025/02-27/takashi"
+    },
+    {
+      "id": "/presentations/2025/03-06/takashi",
+      "title": "Next.js v14入門 | 高田ゼミ",
+      "path": "/presentations/2025/03-06/takashi"
+    },
+    {
+      "id": "/presentations/2025/03-12/murata",
+      "title": "Testcontainersの紹介 | 高田ゼミ",
+      "path": "/presentations/2025/03-12/murata"
+    },
+    {
+      "id": "/presentations/2025/03-12/takashi",
+      "title": "WCAG(Web Content Accessibility Guidelines) | 高田ゼミ",
+      "path": "/presentations/2025/03-12/takashi"
+    },
+    {
+      "id": "/presentations/2025/03-18/murata",
+      "title": "DevContainer とは？ | 高田ゼミ",
+      "path": "/presentations/2025/03-18/murata"
+    },
+    {
+      "id": "/presentations/2025/04-02/kazukichi",
+      "title": "AIエージェントに入門した | 高田ゼミ",
+      "path": "/presentations/2025/04-02/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/04-09/kazukichi",
+      "title": "これからのAIの在り方を想像する | 高田ゼミ",
+      "path": "/presentations/2025/04-09/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/04-09/murata",
+      "title": "最近話題のMCPサーバーについてのまとめ | 高田ゼミ",
+      "path": "/presentations/2025/04-09/murata"
+    },
+    {
+      "id": "/presentations/2025/04-09/takashi",
+      "title": "Starlight | 高田ゼミ",
+      "path": "/presentations/2025/04-09/takashi"
+    },
+    {
+      "id": "/presentations/2025/04-18/kazukichi",
+      "title": "最近の趣味プロとVibe Coding | 高田ゼミ",
+      "path": "/presentations/2025/04-18/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/04-23/kazukichi",
+      "title": "生成AI関連ツールを使い倒す | 高田ゼミ",
+      "path": "/presentations/2025/04-23/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/04-30/kazukichi",
+      "title": "Middle Dive MCP | 高田ゼミ",
+      "path": "/presentations/2025/04-30/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/04-30/murata",
+      "title": "Daggerって知ってる？ | 高田ゼミ",
+      "path": "/presentations/2025/04-30/murata"
+    },
+    {
+      "id": "/presentations/2025/05-07/kazukichi",
+      "title": "MCPサーバの活用と構築 | 高田ゼミ",
+      "path": "/presentations/2025/05-07/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/05-07/takashi",
+      "title": "Corepack | 高田ゼミ",
+      "path": "/presentations/2025/05-07/takashi"
+    },
+    {
+      "id": "/presentations/2025/05-14/kazukichi",
+      "title": "A2A - MCPのその先へ | 高田ゼミ",
+      "path": "/presentations/2025/05-14/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/05-22/kazukichi",
+      "title": "プロンプトエンジニアリング入門 | 高田ゼミ",
+      "path": "/presentations/2025/05-22/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/05-30/kazukichi",
+      "title": "ファスト読書 - 生成AI時代の新しい読書のカタチ | 高田ゼミ",
+      "path": "/presentations/2025/05-30/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/05-30/takashi",
+      "title": "Flutter 3.32 | 高田ゼミ",
+      "path": "/presentations/2025/05-30/takashi"
+    },
+    {
+      "id": "/presentations/2025/06-05/kazukichi",
+      "title": "画像生成AIの「画風」 | 高田ゼミ",
+      "path": "/presentations/2025/06-05/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/06-05/murata",
+      "title": "Devcontainer と Docker in Docker の通信 | 高田ゼミ",
+      "path": "/presentations/2025/06-05/murata"
+    },
+    {
+      "id": "/presentations/2025/06-19/kazukichi",
+      "title": "生成AI関連ツールを使い倒すII | 高田ゼミ",
+      "path": "/presentations/2025/06-19/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/06-19/takashi",
+      "title": "Liquid Glass | 高田ゼミ",
+      "path": "/presentations/2025/06-19/takashi"
+    },
+    {
+      "id": "/presentations/2025/06-25/kazukichi",
+      "title": "デフォルトのブラウザをBraveに変えた話 | 高田ゼミ",
+      "path": "/presentations/2025/06-25/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/07-02/kazukichi",
+      "title": "GitHub Actionsで人生のPDCAをぶん回す | 高田ゼミ",
+      "path": "/presentations/2025/07-02/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/07-07/kazukichi",
+      "title": "AG-UI - 第三のプロトコル | 高田ゼミ",
+      "path": "/presentations/2025/07-07/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/07-07/murata",
+      "title": "ClaudeCode と Claude4Opus だけでで Cloudflare Pages 上にプロフィールページ作ってみた | 高田ゼミ",
+      "path": "/presentations/2025/07-07/murata"
+    },
+    {
+      "id": "/presentations/2025/07-24/kazukichi",
+      "title": "Webブラウザから内蔵LLMが使えるようになった | 高田ゼミ",
+      "path": "/presentations/2025/07-24/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/07-24/murata",
+      "title": "ClaudeCode と Claude4Opus だけでで Cloudflare Pages 上にプロフィールページ作ってみた → 続き | 高田ゼミ",
+      "path": "/presentations/2025/07-24/murata"
+    },
+    {
+      "id": "/presentations/2025/07-24/takashi",
+      "title": "Figma Dev Mode MCP | 高田ゼミ",
+      "path": "/presentations/2025/07-24/takashi"
+    },
+    {
+      "id": "/presentations/2025/07-29/kazukichi",
+      "title": "container-use - AIエージェントにおけるコンテナ技術活用 | 高田ゼミ",
+      "path": "/presentations/2025/07-29/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/07-29/takashi",
+      "title": "Figma Make | 高田ゼミ",
+      "path": "/presentations/2025/07-29/takashi"
+    },
+    {
+      "id": "/presentations/2025/08-05/kazukichi",
+      "title": "Appleがコンテナ製品を出したらしい | 高田ゼミ",
+      "path": "/presentations/2025/08-05/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/08-20/kazukichi",
+      "title": "いかにして技術記事を書くか | 高田ゼミ",
+      "path": "/presentations/2025/08-20/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/08-20/takashi",
+      "title": "Layermate | 高田ゼミ",
+      "path": "/presentations/2025/08-20/takashi"
+    },
+    {
+      "id": "/presentations/2025/08-27/kazukichi",
+      "title": "我々が創ってきたもの、そしてこれから | 高田ゼミ",
+      "path": "/presentations/2025/08-27/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/09-04/kazukichi",
+      "title": "ハッカソンの要素分解 | 高田ゼミ",
+      "path": "/presentations/2025/09-04/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/09-04/takashi",
+      "title": "Simple Design System | 高田ゼミ",
+      "path": "/presentations/2025/09-04/takashi"
+    },
+    {
+      "id": "/presentations/2025/09-11/kazukichi",
+      "title": "ハッカソンの技術選定 [サーバサイド編] | 高田ゼミ",
+      "path": "/presentations/2025/09-11/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/09-16/kazukichi",
+      "title": "Astro + Cloudflare Pages構成を試してみた感想とか | 高田ゼミ",
+      "path": "/presentations/2025/09-16/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/09-16/takashi",
+      "title": "ハッカソンの技術選定 [デザイン・フロントエンド編] | 高田ゼミ",
+      "path": "/presentations/2025/09-16/takashi"
+    },
+    {
+      "id": "/presentations/2025/09-24/kazukichi",
+      "title": "ハッカソンの技術選定 [ハードウェア編] | 高田ゼミ",
+      "path": "/presentations/2025/09-24/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/09-29/kazukichi",
+      "title": "続・ハッカソンの技術選定 [ハードウェア編] | 高田ゼミ",
+      "path": "/presentations/2025/09-29/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/09-29/takashi",
+      "title": "ハッカソンの技術選定 [Flutter編] | 高田ゼミ",
+      "path": "/presentations/2025/09-29/takashi"
+    },
+    {
+      "id": "/presentations/2025/10-08/kazukichi",
+      "title": "真・ハッカソンの技術選定 [ハードウェア編] | 高田ゼミ",
+      "path": "/presentations/2025/10-08/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/10-08/takashi",
+      "title": "続・ハッカソンの技術選定 [Flutter編] | 高田ゼミ",
+      "path": "/presentations/2025/10-08/takashi"
+    },
+    {
+      "id": "/presentations/2025/10-15/kazukichi",
+      "title": "Docker DesktopのオルタナティブとしてのColima | 高田ゼミ",
+      "path": "/presentations/2025/10-15/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/10-22/kazukichi",
+      "title": "終・ハッカソンの技術選定 [ハードウェア編] | 高田ゼミ",
+      "path": "/presentations/2025/10-22/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/10-29/kazukichi",
+      "title": "技術的・思想的視点からの『頭部ふわふわ浄酔器』 | 高田ゼミ",
+      "path": "/presentations/2025/10-29/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/11-06/kazukichi",
+      "title": "FFI - PythonからCを呼び出す方法 | 高田ゼミ",
+      "path": "/presentations/2025/11-06/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/11-06/murata",
+      "title": "マイコンでのライブラリ開発概要 | 高田ゼミ",
+      "path": "/presentations/2025/11-06/murata"
+    },
+    {
+      "id": "/presentations/2025/11-06/takashi",
+      "title": "shake - Flutterでシェイク動作を検知する | 高田ゼミ",
+      "path": "/presentations/2025/11-06/takashi"
+    },
+    {
+      "id": "/presentations/2025/11-10/kazukichi",
+      "title": "Teleword - アイデア創発プラットフォーム | 高田ゼミ",
+      "path": "/presentations/2025/11-10/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/11-10/takashi",
+      "title": "geolocator - Flutterで位置情報を取得する | 高田ゼミ",
+      "path": "/presentations/2025/11-10/takashi"
+    },
+    {
+      "id": "/presentations/2025/11-25/kazukichi",
+      "title": "Quine - 自分自身を語るプログラム | 高田ゼミ",
+      "path": "/presentations/2025/11-25/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/11-25/murata",
+      "title": "汎用マイコン（？）向けライブラリ omusubi について | 高田ゼミ",
+      "path": "/presentations/2025/11-25/murata"
+    },
+    {
+      "id": "/presentations/2025/11-25/takashi",
+      "title": "flutter_ble_peripheral / flutter_blue_plus - FlutterでBLE通信と距離推定を実装する | 高田ゼミ",
+      "path": "/presentations/2025/11-25/takashi"
+    },
+    {
+      "id": "/presentations/2025/12-04/kazukichi",
+      "title": "M5Stackのユニット検証 | 高田ゼミ",
+      "path": "/presentations/2025/12-04/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/12-04/murata",
+      "title": "Vibe Codingで調子に乗って失敗した話 | 高田ゼミ",
+      "path": "/presentations/2025/12-04/murata"
+    },
+    {
+      "id": "/presentations/2025/12-04/takashi",
+      "title": "speech_to_text - Flutterで音声認識を実装する | 高田ゼミ",
+      "path": "/presentations/2025/12-04/takashi"
+    },
+    {
+      "id": "/presentations/2025/12-18/kazukichi",
+      "title": "技術・モティーフ・思想から見る『真黒合体スパホルダー』 | 高田ゼミ",
+      "path": "/presentations/2025/12-18/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/12-18/murata",
+      "title": "flutterのゲームエンジン・物理エンジンを触った所感 | 高田ゼミ",
+      "path": "/presentations/2025/12-18/murata"
+    },
+    {
+      "id": "/presentations/2025/12-18/takashi",
+      "title": "BLE通信で気をつけること | 高田ゼミ",
+      "path": "/presentations/2025/12-18/takashi"
+    },
+    {
+      "id": "/presentations/2025/12-22/kazukichi",
+      "title": "顔面コントローラー | 高田ゼミ",
+      "path": "/presentations/2025/12-22/kazukichi"
+    },
+    {
+      "id": "/presentations/2025/12-22/takashi",
+      "title": "Flutterで実装するQRコードスキャナー | 高田ゼミ",
+      "path": "/presentations/2025/12-22/takashi"
+    },
+    {
+      "id": "/presentations/2026/01-07/kazukichi",
+      "title": "ンヒ体験 | 高田ゼミ",
+      "path": "/presentations/2026/01-07/kazukichi"
+    },
+    {
+      "id": "/presentations/2026/01-07/takashi",
+      "title": "Device Posture APIを使って、スマホの開閉に合わせて画面を変化させる | 高田ゼミ",
+      "path": "/presentations/2026/01-07/takashi"
+    },
+    {
+      "id": "/presentations/2026/01-15/kazukichi",
+      "title": "exe.dev - AIネイティブなVPS | 高田ゼミ",
+      "path": "/presentations/2026/01-15/kazukichi"
+    },
+    {
+      "id": "/presentations/2026/01-20/kazukichi",
+      "title": "LLM Council - 現代のMAGIシステム | 高田ゼミ",
+      "path": "/presentations/2026/01-20/kazukichi"
+    },
+    {
+      "id": "/presentations/2026/01-20/murata",
+      "title": "Holo CI Workers - CI結果をホロの口調でDiscord通知 | 高田ゼミ",
+      "path": "/presentations/2026/01-20/murata"
+    },
+    {
+      "id": "/presentations/2026/01-20/takashi",
+      "title": "Cloudflare PagesでpnpmとNode.jsのバージョンを指定する | 高田ゼミ",
+      "path": "/presentations/2026/01-20/takashi"
+    },
+    {
+      "id": "/presentations/2026/01-28/kazukichi",
+      "title": "Agentic Workflows - 自然言語でCI/CD | 高田ゼミ",
+      "path": "/presentations/2026/01-28/kazukichi"
+    },
+    {
+      "id": "/presentations/2026/01-28/murata",
+      "title": "Vibe Codingで10Gbpsルーターを自作した | 高田ゼミ",
+      "path": "/presentations/2026/01-28/murata"
+    },
+    {
+      "id": "/presentations/2026/02-04/kazukichi",
+      "title": "cagent - YAMLでつくるAIエージェント | 高田ゼミ",
+      "path": "/presentations/2026/02-04/kazukichi"
+    },
+    {
+      "id": "/presentations/2026/02-13/kazukichi",
+      "title": "WebLLM - ブラウザで動くLLM | 高田ゼミ",
+      "path": "/presentations/2026/02-13/kazukichi"
+    },
+    {
+      "id": "/presentations/2026/02-13/takashi",
+      "title": "ハートをふわりと表示するアプリ~バレンタインスペシャル~ | 高田ゼミ",
+      "path": "/presentations/2026/02-13/takashi"
+    },
+    {
+      "id": "/presentations/2026/02-17/kazukichi",
+      "title": "PR-Agent - AIでらくらくPRレビュー♪ | 高田ゼミ",
+      "path": "/presentations/2026/02-17/kazukichi"
+    },
+    {
+      "id": "/presentations/2026/03-02/kazukichi",
+      "title": "DSPy - 宣言的で自己改善的な推論フレームワーク | 高田ゼミ",
+      "path": "/presentations/2026/03-02/kazukichi"
+    },
+    {
+      "id": "/presentations/2026/03-11/kazukichi",
+      "title": "コンフルをマークダウンに変換するMCPサーバを作った | 高田ゼミ",
+      "path": "/presentations/2026/03-11/kazukichi"
+    },
+    {
+      "id": "/presentations/2026/03-11/murata",
+      "title": "むらた流Claude Code活用術 | 高田ゼミ",
+      "path": "/presentations/2026/03-11/murata"
+    },
+    {
+      "id": "/presentations/2026/03-11/nakamu",
+      "title": "iPadからマイコンに書き込みたい！ | 高田ゼミ",
+      "path": "/presentations/2026/03-11/nakamu"
+    },
+    {
+      "id": "/presentations/2026/03-11/takashi",
+      "title": "Code to Canvas | 高田ゼミ",
+      "path": "/presentations/2026/03-11/takashi"
+    }
+  ],
+  "links": [
+    {
+      "source": "/concept",
+      "target": "/presentations/2025/02-12/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/02-12/kazukichi",
+      "target": "/concept"
+    },
+    {
+      "source": "/presentations/2025/02-12/kazukichi",
+      "target": "/presentations/2025/02-12/takashi"
+    },
+    {
+      "source": "/presentations/2025/02-12/takashi",
+      "target": "/presentations/2025/02-12/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/02-12/takashi",
+      "target": "/presentations/2025/02-19/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/02-19/kazukichi",
+      "target": "/presentations/2025/02-12/takashi"
+    },
+    {
+      "source": "/presentations/2025/02-19/kazukichi",
+      "target": "/presentations/2025/02-19/takashi"
+    },
+    {
+      "source": "/presentations/2025/02-19/takashi",
+      "target": "/presentations/2025/02-19/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/02-19/takashi",
+      "target": "/presentations/2025/02-27/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/02-27/kazukichi",
+      "target": "/presentations/2025/02-19/takashi"
+    },
+    {
+      "source": "/presentations/2025/02-27/kazukichi",
+      "target": "/presentations/2025/02-27/takashi"
+    },
+    {
+      "source": "/presentations/2025/02-27/takashi",
+      "target": "/presentations/2025/02-27/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/02-27/takashi",
+      "target": "/presentations/2025/03-06/takashi"
+    },
+    {
+      "source": "/presentations/2025/03-06/takashi",
+      "target": "/presentations/2025/02-27/takashi"
+    },
+    {
+      "source": "/presentations/2025/03-06/takashi",
+      "target": "/presentations/2025/03-12/murata"
+    },
+    {
+      "source": "/presentations/2025/03-12/murata",
+      "target": "/presentations/2025/03-06/takashi"
+    },
+    {
+      "source": "/presentations/2025/03-12/murata",
+      "target": "/presentations/2025/03-12/takashi"
+    },
+    {
+      "source": "/presentations/2025/03-12/takashi",
+      "target": "/presentations/2025/03-12/murata"
+    },
+    {
+      "source": "/presentations/2025/03-12/takashi",
+      "target": "/presentations/2025/03-18/murata"
+    },
+    {
+      "source": "/presentations/2025/03-18/murata",
+      "target": "/presentations/2025/03-12/takashi"
+    },
+    {
+      "source": "/presentations/2025/03-18/murata",
+      "target": "/presentations/2025/04-02/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/04-02/kazukichi",
+      "target": "/presentations/2025/03-18/murata"
+    },
+    {
+      "source": "/presentations/2025/04-02/kazukichi",
+      "target": "/presentations/2025/04-09/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/04-09/kazukichi",
+      "target": "/presentations/2025/04-02/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/04-09/kazukichi",
+      "target": "/presentations/2025/04-09/murata"
+    },
+    {
+      "source": "/presentations/2025/04-09/murata",
+      "target": "/presentations/2025/04-09/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/04-09/murata",
+      "target": "/presentations/2025/04-09/takashi"
+    },
+    {
+      "source": "/presentations/2025/04-09/takashi",
+      "target": "/presentations/2025/04-09/murata"
+    },
+    {
+      "source": "/presentations/2025/04-09/takashi",
+      "target": "/presentations/2025/04-18/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/04-18/kazukichi",
+      "target": "/presentations/2025/04-09/takashi"
+    },
+    {
+      "source": "/presentations/2025/04-18/kazukichi",
+      "target": "/presentations/2025/04-23/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/04-23/kazukichi",
+      "target": "/presentations/2025/04-18/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/04-23/kazukichi",
+      "target": "/presentations/2025/04-30/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/04-30/kazukichi",
+      "target": "/presentations/2025/04-23/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/04-30/kazukichi",
+      "target": "/presentations/2025/04-30/murata"
+    },
+    {
+      "source": "/presentations/2025/04-30/murata",
+      "target": "/presentations/2025/04-30/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/04-30/murata",
+      "target": "/presentations/2025/05-07/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/05-07/kazukichi",
+      "target": "/presentations/2025/04-30/murata"
+    },
+    {
+      "source": "/presentations/2025/05-07/kazukichi",
+      "target": "/presentations/2025/05-07/takashi"
+    },
+    {
+      "source": "/presentations/2025/05-07/takashi",
+      "target": "/presentations/2025/05-07/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/05-07/takashi",
+      "target": "/presentations/2025/05-14/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/05-14/kazukichi",
+      "target": "/presentations/2025/05-07/takashi"
+    },
+    {
+      "source": "/presentations/2025/05-14/kazukichi",
+      "target": "/presentations/2025/05-22/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/05-22/kazukichi",
+      "target": "/presentations/2025/05-14/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/05-22/kazukichi",
+      "target": "/presentations/2025/05-30/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/05-30/kazukichi",
+      "target": "/presentations/2025/05-22/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/05-30/kazukichi",
+      "target": "/presentations/2025/05-30/takashi"
+    },
+    {
+      "source": "/presentations/2025/05-30/takashi",
+      "target": "/presentations/2025/05-30/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/05-30/takashi",
+      "target": "/presentations/2025/06-05/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/06-05/kazukichi",
+      "target": "/presentations/2025/05-30/takashi"
+    },
+    {
+      "source": "/presentations/2025/06-05/kazukichi",
+      "target": "/presentations/2025/06-05/murata"
+    },
+    {
+      "source": "/presentations/2025/06-05/murata",
+      "target": "/presentations/2025/06-05/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/06-05/murata",
+      "target": "/presentations/2025/06-19/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/06-19/kazukichi",
+      "target": "/presentations/2025/06-05/murata"
+    },
+    {
+      "source": "/presentations/2025/06-19/kazukichi",
+      "target": "/presentations/2025/06-19/takashi"
+    },
+    {
+      "source": "/presentations/2025/06-19/takashi",
+      "target": "/presentations/2025/06-19/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/06-19/takashi",
+      "target": "/presentations/2025/06-25/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/06-25/kazukichi",
+      "target": "/presentations/2025/06-19/takashi"
+    },
+    {
+      "source": "/presentations/2025/06-25/kazukichi",
+      "target": "/presentations/2025/07-02/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/07-02/kazukichi",
+      "target": "/presentations/2025/06-25/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/07-02/kazukichi",
+      "target": "/presentations/2025/07-07/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/07-07/kazukichi",
+      "target": "/presentations/2025/07-02/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/07-07/kazukichi",
+      "target": "/presentations/2025/07-07/murata"
+    },
+    {
+      "source": "/presentations/2025/07-07/murata",
+      "target": "/presentations/2025/07-07/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/07-07/murata",
+      "target": "/presentations/2025/07-24/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/07-24/kazukichi",
+      "target": "/presentations/2025/07-07/murata"
+    },
+    {
+      "source": "/presentations/2025/07-24/kazukichi",
+      "target": "/presentations/2025/07-24/murata"
+    },
+    {
+      "source": "/presentations/2025/07-24/murata",
+      "target": "/presentations/2025/07-24/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/07-24/murata",
+      "target": "/presentations/2025/07-24/takashi"
+    },
+    {
+      "source": "/presentations/2025/07-24/takashi",
+      "target": "/presentations/2025/07-24/murata"
+    },
+    {
+      "source": "/presentations/2025/07-24/takashi",
+      "target": "/presentations/2025/07-29/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/07-29/kazukichi",
+      "target": "/presentations/2025/07-24/takashi"
+    },
+    {
+      "source": "/presentations/2025/07-29/kazukichi",
+      "target": "/presentations/2025/07-29/takashi"
+    },
+    {
+      "source": "/presentations/2025/07-29/takashi",
+      "target": "/presentations/2025/07-29/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/07-29/takashi",
+      "target": "/presentations/2025/08-05/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/08-05/kazukichi",
+      "target": "/presentations/2025/07-29/takashi"
+    },
+    {
+      "source": "/presentations/2025/08-05/kazukichi",
+      "target": "/presentations/2025/08-20/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/08-20/kazukichi",
+      "target": "/presentations/2025/08-05/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/08-20/kazukichi",
+      "target": "/presentations/2025/08-20/takashi"
+    },
+    {
+      "source": "/presentations/2025/08-20/takashi",
+      "target": "/presentations/2025/08-20/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/08-20/takashi",
+      "target": "/presentations/2025/08-27/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/08-27/kazukichi",
+      "target": "/presentations/2025/08-20/takashi"
+    },
+    {
+      "source": "/presentations/2025/08-27/kazukichi",
+      "target": "/presentations/2025/09-04/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-04/kazukichi",
+      "target": "/presentations/2025/08-27/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-04/kazukichi",
+      "target": "/presentations/2025/09-04/takashi"
+    },
+    {
+      "source": "/presentations/2025/09-04/takashi",
+      "target": "/presentations/2025/09-04/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-04/takashi",
+      "target": "/presentations/2025/09-11/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-11/kazukichi",
+      "target": "/presentations/2025/09-04/takashi"
+    },
+    {
+      "source": "/presentations/2025/09-11/kazukichi",
+      "target": "/presentations/2025/09-16/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-16/kazukichi",
+      "target": "/presentations/2025/09-11/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-16/kazukichi",
+      "target": "/presentations/2025/09-16/takashi"
+    },
+    {
+      "source": "/presentations/2025/09-16/takashi",
+      "target": "/presentations/2025/09-16/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-16/takashi",
+      "target": "/presentations/2025/09-24/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-24/kazukichi",
+      "target": "/presentations/2025/09-16/takashi"
+    },
+    {
+      "source": "/presentations/2025/09-24/kazukichi",
+      "target": "/presentations/2025/09-29/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-29/kazukichi",
+      "target": "/presentations/2025/09-24/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-29/kazukichi",
+      "target": "/presentations/2025/09-29/takashi"
+    },
+    {
+      "source": "/presentations/2025/09-29/takashi",
+      "target": "/presentations/2025/09-29/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/09-29/takashi",
+      "target": "/presentations/2025/10-08/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-08/kazukichi",
+      "target": "/presentations/2025/09-29/takashi"
+    },
+    {
+      "source": "/presentations/2025/10-08/kazukichi",
+      "target": "/presentations/2025/10-08/takashi"
+    },
+    {
+      "source": "/presentations/2025/10-08/takashi",
+      "target": "/presentations/2025/10-08/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-08/takashi",
+      "target": "/presentations/2025/10-15/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-15/kazukichi",
+      "target": "/presentations/2025/10-08/takashi"
+    },
+    {
+      "source": "/presentations/2025/10-15/kazukichi",
+      "target": "/presentations/2025/10-22/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-22/kazukichi",
+      "target": "/presentations/2025/10-15/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-22/kazukichi",
+      "target": "/presentations/2025/10-29/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-29/kazukichi",
+      "target": "/presentations/2025/10-22/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-29/kazukichi",
+      "target": "/presentations/2025/11-06/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/11-06/kazukichi",
+      "target": "/presentations/2025/10-29/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/11-06/kazukichi",
+      "target": "/presentations/2025/11-06/murata"
+    },
+    {
+      "source": "/presentations/2025/11-06/murata",
+      "target": "/presentations/2025/11-06/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/11-06/murata",
+      "target": "/presentations/2025/11-06/takashi"
+    },
+    {
+      "source": "/presentations/2025/11-06/takashi",
+      "target": "/presentations/2025/11-06/murata"
+    },
+    {
+      "source": "/presentations/2025/11-06/takashi",
+      "target": "/presentations/2025/11-10/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/11-10/kazukichi",
+      "target": "/presentations/2025/11-06/takashi"
+    },
+    {
+      "source": "/presentations/2025/11-10/kazukichi",
+      "target": "/presentations/2025/11-10/takashi"
+    },
+    {
+      "source": "/presentations/2025/11-10/takashi",
+      "target": "/presentations/2025/11-10/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/11-10/takashi",
+      "target": "/presentations/2025/11-25/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/11-25/kazukichi",
+      "target": "/presentations/2025/11-10/takashi"
+    },
+    {
+      "source": "/presentations/2025/11-25/kazukichi",
+      "target": "/presentations/2025/11-25/murata"
+    },
+    {
+      "source": "/presentations/2025/11-25/murata",
+      "target": "/presentations/2025/11-25/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/11-25/murata",
+      "target": "/presentations/2025/11-25/takashi"
+    },
+    {
+      "source": "/presentations/2025/11-25/takashi",
+      "target": "/presentations/2025/11-25/murata"
+    },
+    {
+      "source": "/presentations/2025/11-25/takashi",
+      "target": "/presentations/2025/12-04/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/12-04/kazukichi",
+      "target": "/presentations/2025/11-25/takashi"
+    },
+    {
+      "source": "/presentations/2025/12-04/kazukichi",
+      "target": "/presentations/2025/12-04/murata"
+    },
+    {
+      "source": "/presentations/2025/12-04/murata",
+      "target": "/presentations/2025/12-04/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/12-04/murata",
+      "target": "/presentations/2025/12-04/takashi"
+    },
+    {
+      "source": "/presentations/2025/12-04/takashi",
+      "target": "/presentations/2025/12-04/murata"
+    },
+    {
+      "source": "/presentations/2025/12-04/takashi",
+      "target": "/presentations/2025/12-18/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/12-18/kazukichi",
+      "target": "/presentations/2025/12-04/takashi"
+    },
+    {
+      "source": "/presentations/2025/12-18/kazukichi",
+      "target": "/presentations/2025/12-18/murata"
+    },
+    {
+      "source": "/presentations/2025/12-18/murata",
+      "target": "/presentations/2025/12-18/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/12-18/murata",
+      "target": "/presentations/2025/12-18/takashi"
+    },
+    {
+      "source": "/presentations/2025/12-18/takashi",
+      "target": "/presentations/2025/12-18/murata"
+    },
+    {
+      "source": "/presentations/2025/12-18/takashi",
+      "target": "/presentations/2025/12-22/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/12-22/kazukichi",
+      "target": "/presentations/2025/12-18/takashi"
+    },
+    {
+      "source": "/presentations/2025/12-22/kazukichi",
+      "target": "/presentations/2025/12-22/takashi"
+    },
+    {
+      "source": "/presentations/2025/12-22/takashi",
+      "target": "/presentations/2025/12-22/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/12-22/takashi",
+      "target": "/presentations/2026/01-07/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/01-07/kazukichi",
+      "target": "/presentations/2025/12-22/takashi"
+    },
+    {
+      "source": "/presentations/2026/01-07/kazukichi",
+      "target": "/presentations/2026/01-07/takashi"
+    },
+    {
+      "source": "/presentations/2026/01-07/takashi",
+      "target": "/presentations/2026/01-07/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/01-07/takashi",
+      "target": "/presentations/2026/01-15/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/01-15/kazukichi",
+      "target": "/presentations/2026/01-07/takashi"
+    },
+    {
+      "source": "/presentations/2026/01-15/kazukichi",
+      "target": "/presentations/2026/01-20/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/01-20/kazukichi",
+      "target": "/presentations/2026/01-15/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/01-20/kazukichi",
+      "target": "/presentations/2026/01-20/murata"
+    },
+    {
+      "source": "/presentations/2026/01-20/murata",
+      "target": "/presentations/2026/01-20/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/01-20/murata",
+      "target": "/presentations/2026/01-20/takashi"
+    },
+    {
+      "source": "/presentations/2026/01-20/takashi",
+      "target": "/presentations/2026/01-20/murata"
+    },
+    {
+      "source": "/presentations/2026/01-20/takashi",
+      "target": "/presentations/2026/01-28/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/01-28/kazukichi",
+      "target": "/presentations/2026/01-20/takashi"
+    },
+    {
+      "source": "/presentations/2026/01-28/kazukichi",
+      "target": "/presentations/2026/01-28/murata"
+    },
+    {
+      "source": "/presentations/2026/01-28/murata",
+      "target": "/presentations/2026/01-28/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/01-28/murata",
+      "target": "/presentations/2026/02-04/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/02-04/kazukichi",
+      "target": "/presentations/2026/01-28/murata"
+    },
+    {
+      "source": "/presentations/2026/02-04/kazukichi",
+      "target": "/presentations/2026/02-13/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/02-13/kazukichi",
+      "target": "/presentations/2026/02-04/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/02-13/kazukichi",
+      "target": "/presentations/2026/02-13/takashi"
+    },
+    {
+      "source": "/presentations/2026/02-13/takashi",
+      "target": "/presentations/2026/02-13/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/02-13/takashi",
+      "target": "/presentations/2026/02-17/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/02-17/kazukichi",
+      "target": "/presentations/2026/02-13/takashi"
+    },
+    {
+      "source": "/presentations/2026/02-17/kazukichi",
+      "target": "/presentations/2026/03-02/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/03-02/kazukichi",
+      "target": "/presentations/2026/02-17/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/03-02/kazukichi",
+      "target": "/presentations/2026/03-11/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/03-11/kazukichi",
+      "target": "/presentations/2026/03-02/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/03-11/kazukichi",
+      "target": "/presentations/2026/03-11/murata"
+    },
+    {
+      "source": "/presentations/2026/03-11/murata",
+      "target": "/presentations/2026/03-11/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/03-11/murata",
+      "target": "/presentations/2026/03-11/nakamu"
+    },
+    {
+      "source": "/presentations/2026/03-11/nakamu",
+      "target": "/presentations/2026/03-11/murata"
+    },
+    {
+      "source": "/presentations/2026/03-11/nakamu",
+      "target": "/presentations/2026/03-11/takashi"
+    },
+    {
+      "source": "/presentations/2026/03-11/takashi",
+      "target": "/presentations/2026/03-11/nakamu"
+    }
+  ]
+}
