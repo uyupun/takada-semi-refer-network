@@ -36,7 +36,7 @@
 
   onMount(async () => {
     const [data, authorColors] = await Promise.all([
-      fetch('/graph.json').then((r) => r.json()),
+      fetch(import.meta.env.BASE_URL + 'graph.json').then((r) => r.json()),
       buildAuthorColors(),
     ]);
 
