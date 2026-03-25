@@ -1,6 +1,6 @@
 # takada-semi-refer-network
 
-- 高田ゼミサイトのページ参照関係をネットワークグラフで可視化
+- [高田ゼミ](https://semi.uyupun.tech/) のサイト内のページ参照関係をネットワークグラフで可視化
 
 ## Setup
 
