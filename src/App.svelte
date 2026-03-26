@@ -45,6 +45,7 @@
       .nodeColor((node) => authorColors[node.author ?? ''] ?? '#aaaaaa')
       .linkDirectionalArrowLength(6)
       .linkDirectionalArrowRelPos(1)
+      .onNodeClick((node) => window.open(`https://semi.uyupun.tech${node.path}`, '_blank'))
       .nodeCanvasObjectMode(() => 'after')
       .nodeCanvasObject((node, ctx) => {
         ctx.font = '2px sans-serif';
