@@ -43,6 +43,8 @@
     new ForceGraph<Node>(container)
       .graphData(data)
       .nodeColor((node) => authorColors[node.author ?? ''] ?? '#aaaaaa')
+      .linkDirectionalArrowLength(6)
+      .linkDirectionalArrowRelPos(1)
       .nodeCanvasObjectMode(() => 'after')
       .nodeCanvasObject((node, ctx) => {
         ctx.font = '2px sans-serif';
