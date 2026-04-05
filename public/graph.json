@@ -533,6 +533,12 @@
       "title": "Code to Canvas",
       "path": "/presentations/2026/03-11/takashi",
       "author": "takashi"
+    },
+    {
+      "id": "/presentations/2026/04-03/kazukichi",
+      "title": "Pavlok x Web APIで人体に電流を流してみた",
+      "path": "/presentations/2026/04-03/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
