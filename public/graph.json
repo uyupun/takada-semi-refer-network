@@ -539,6 +539,18 @@
       "title": "Pavlok x Web APIで人体に電流を流してみた",
       "path": "/presentations/2026/04-03/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/04-08/kazukichi",
+      "title": "CloudflareのPagesとZero Trustで認証付きWebサイト構築",
+      "path": "/presentations/2026/04-08/kazukichi",
+      "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/04-08/takashi",
+      "title": "use_figma - Figma MCP",
+      "path": "/presentations/2026/04-08/takashi",
+      "author": "takashi"
     }
   ],
   "links": [
