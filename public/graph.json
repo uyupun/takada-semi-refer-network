@@ -551,6 +551,12 @@
       "title": "use_figma - Figma MCP",
       "path": "/presentations/2026/04-08/takashi",
       "author": "takashi"
+    },
+    {
+      "id": "/presentations/2026/04-13/kazukichi",
+      "title": "コードとドキュメントの品質を上げる技術",
+      "path": "/presentations/2026/04-13/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
@@ -717,6 +723,10 @@
     {
       "source": "/presentations/2026/04-08/kazukichi",
       "target": "/presentations/2025/09-16/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/04-13/kazukichi",
+      "target": "/presentations/2026/02-17/kazukichi"
     }
   ]
 }
