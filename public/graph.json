@@ -557,6 +557,12 @@
       "title": "コードとドキュメントの品質を上げる技術",
       "path": "/presentations/2026/04-13/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/04-28/kazukichi",
+      "title": "ゼミ記事のリンク関係を可視化する",
+      "path": "/presentations/2026/04-28/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
@@ -727,6 +733,30 @@
     {
       "source": "/presentations/2026/04-13/kazukichi",
       "target": "/presentations/2026/02-17/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/04-28/kazukichi",
+      "target": "/presentations/2025/02-19/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/04-28/kazukichi",
+      "target": "/presentations/2025/02-12/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/04-28/kazukichi",
+      "target": "/presentations/2025/02-27/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/04-28/kazukichi",
+      "target": "/"
+    },
+    {
+      "source": "/presentations/2026/04-28/kazukichi",
+      "target": "/"
+    },
+    {
+      "source": "/presentations/2026/04-28/kazukichi",
+      "target": "/"
     }
   ]
 }
