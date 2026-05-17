@@ -559,10 +559,28 @@
       "author": "kazukichi"
     },
     {
+      "id": "/presentations/2026/04-13/takashi",
+      "title": "スマホから姿勢データを取得する",
+      "path": "/presentations/2026/04-13/takashi",
+      "author": "takashi"
+    },
+    {
       "id": "/presentations/2026/04-28/kazukichi",
       "title": "ゼミ記事のリンク関係を可視化する",
       "path": "/presentations/2026/04-28/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/05-14/kazukichi",
+      "title": "データソニフィケーションの可能性の探求",
+      "path": "/presentations/2026/05-14/kazukichi",
+      "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/05-14/takashi",
+      "title": "初めてのミラーレス一眼",
+      "path": "/presentations/2026/05-14/takashi",
+      "author": "takashi"
     }
   ],
   "links": [
@@ -757,6 +775,10 @@
     {
       "source": "/presentations/2026/04-28/kazukichi",
       "target": "/"
+    },
+    {
+      "source": "/presentations/2026/05-14/kazukichi",
+      "target": "/presentations/2025/03-12/takashi"
     }
   ]
 }
