@@ -581,6 +581,12 @@
       "title": "初めてのミラーレス一眼",
       "path": "/presentations/2026/05-14/takashi",
       "author": "takashi"
+    },
+    {
+      "id": "/presentations/2026/05-19/kazukichi",
+      "title": "Claude Code GitHub Actions を振り返りに活用している",
+      "path": "/presentations/2026/05-19/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
@@ -779,6 +785,10 @@
     {
       "source": "/presentations/2026/05-14/kazukichi",
       "target": "/presentations/2025/03-12/takashi"
+    },
+    {
+      "source": "/presentations/2026/05-19/kazukichi",
+      "target": "/presentations/2025/07-02/kazukichi"
     }
   ]
 }
