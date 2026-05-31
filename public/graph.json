@@ -587,6 +587,12 @@
       "title": "Claude Code GitHub Actions を振り返りに活用している",
       "path": "/presentations/2026/05-19/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/05-28/kazukichi",
+      "title": "Dependabot 運用ノウハウ",
+      "path": "/presentations/2026/05-28/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
@@ -789,6 +795,10 @@
     {
       "source": "/presentations/2026/05-19/kazukichi",
       "target": "/presentations/2025/07-02/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/05-28/kazukichi",
+      "target": "/presentations/2026/04-13/kazukichi"
     }
   ]
 }
