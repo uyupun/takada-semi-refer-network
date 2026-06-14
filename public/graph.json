@@ -593,6 +593,12 @@
       "title": "Dependabot 運用ノウハウ",
       "path": "/presentations/2026/05-28/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/06-08/kazukichi",
+      "title": "AI時代のロゴデザイン",
+      "path": "/presentations/2026/06-08/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
@@ -799,6 +805,10 @@
     {
       "source": "/presentations/2026/05-28/kazukichi",
       "target": "/presentations/2026/04-13/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/06-08/kazukichi",
+      "target": "/presentations/2025/06-05/kazukichi"
     }
   ]
 }
