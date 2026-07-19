@@ -599,6 +599,12 @@
       "title": "AI時代のロゴデザイン",
       "path": "/presentations/2026/06-08/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/07-14/kazukichi",
+      "title": "AI時代の動画制作",
+      "path": "/presentations/2026/07-14/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
@@ -809,6 +815,10 @@
     {
       "source": "/presentations/2026/06-08/kazukichi",
       "target": "/presentations/2025/06-05/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/07-14/kazukichi",
+      "target": "/presentations/2026/06-08/kazukichi"
     }
   ]
 }
