@@ -605,6 +605,18 @@
       "title": "AI時代の動画制作",
       "path": "/presentations/2026/07-14/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/07-28/kazukichi",
+      "title": "AIネイティブな360度映像の制作",
+      "path": "/presentations/2026/07-28/kazukichi",
+      "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/07-28/takashi",
+      "title": "Flutterで手書き風ストローク（perfect_freehand）を実装する",
+      "path": "/presentations/2026/07-28/takashi",
+      "author": "takashi"
     }
   ],
   "links": [
@@ -819,6 +831,10 @@
     {
       "source": "/presentations/2026/07-14/kazukichi",
       "target": "/presentations/2026/06-08/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/07-28/kazukichi",
+      "target": "/presentations/2026/07-14/kazukichi"
     }
   ]
 }
