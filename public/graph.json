@@ -653,8 +653,20 @@
       "target": "/presentations/2025/04-30/kazukichi"
     },
     {
+      "source": "/presentations/2025/05-14/kazukichi",
+      "target": "/presentations/2025/04-30/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/05-30/kazukichi",
+      "target": "/presentations/2025/04-23/kazukichi"
+    },
+    {
       "source": "/presentations/2025/06-05/kazukichi",
       "target": "/presentations/2025/02-19/takashi"
+    },
+    {
+      "source": "/presentations/2025/06-19/kazukichi",
+      "target": "/presentations/2025/04-23/kazukichi"
     },
     {
       "source": "/presentations/2025/06-19/kazukichi",
@@ -742,6 +754,10 @@
     },
     {
       "source": "/presentations/2025/10-29/kazukichi",
+      "target": "/presentations/2025/08-27/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-29/kazukichi",
       "target": "/presentations/2025/09-24/kazukichi"
     },
     {
@@ -757,6 +773,22 @@
       "target": "/presentations/2025/10-22/kazukichi"
     },
     {
+      "source": "/presentations/2025/10-29/kazukichi",
+      "target": "/presentations/2025/10-22/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-29/kazukichi",
+      "target": "/presentations/2025/08-27/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-29/kazukichi",
+      "target": "/presentations/2025/08-27/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/10-29/kazukichi",
+      "target": "/presentations/2025/08-27/kazukichi"
+    },
+    {
       "source": "/presentations/2025/11-25/murata",
       "target": "/presentations/2025/11-06/murata"
     },
@@ -765,8 +797,20 @@
       "target": "/presentations/2025/10-22/kazukichi"
     },
     {
+      "source": "/presentations/2025/12-18/kazukichi",
+      "target": "/presentations/2025/08-27/kazukichi"
+    },
+    {
+      "source": "/presentations/2025/12-18/kazukichi",
+      "target": "/presentations/2025/10-22/kazukichi"
+    },
+    {
       "source": "/presentations/2026/02-13/kazukichi",
       "target": "/presentations/2025/07-24/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/02-17/kazukichi",
+      "target": "/presentations/2026/01-28/kazukichi"
     },
     {
       "source": "/presentations/2026/03-11/kazukichi",
@@ -835,6 +879,10 @@
     {
       "source": "/presentations/2026/07-28/kazukichi",
       "target": "/presentations/2026/07-14/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/07-28/takashi",
+      "target": "/presentations/2025/02-12/takashi"
     }
   ]
 }
