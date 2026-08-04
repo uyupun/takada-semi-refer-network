@@ -82,7 +82,7 @@ async function scrape(): Promise<Graph> {
     const { title, links: pageLinks } = await fetchPage(path);
     nodes.push({ id: path, title, path, author: extractAuthor(path, members) });
 
-    for (const link of pageLinks) {
+    for (const link of new Set(pageLinks)) {
       if (link !== "/" && pathSet.has(link)) {
         links.push({ source: path, target: link });
       }
