@@ -37,7 +37,7 @@ function extractLinks(html: string): string[] {
   return root
     .querySelectorAll(".sl-markdown-content a[href]")
     .map((a) => {
-      const href = a.getAttribute("href")!;
+      const href = a.getAttribute("href")!.split("#")[0];
       if (href.startsWith(BASE_URL)) return href.slice(BASE_URL.length);
       return href;
     })
