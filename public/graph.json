@@ -617,6 +617,12 @@
       "title": "Flutterで手書き風ストローク（perfect_freehand）を実装する",
       "path": "/presentations/2026/07-28/takashi",
       "author": "takashi"
+    },
+    {
+      "id": "/presentations/2026/08-05/kazukichi",
+      "title": "vhsify - VHS風エフェクトCLI",
+      "path": "/presentations/2026/08-05/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
