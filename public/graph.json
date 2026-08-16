@@ -623,6 +623,18 @@
       "title": "vhsify - VHS風エフェクトCLI",
       "path": "/presentations/2026/08-05/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/08-12/kazukichi",
+      "title": "Wave Surfer - 波を音で乗りこなす",
+      "path": "/presentations/2026/08-12/kazukichi",
+      "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/08-12/takashi",
+      "title": "Template APIで変わるCode Connect",
+      "path": "/presentations/2026/08-12/takashi",
+      "author": "takashi"
     }
   ],
   "links": [
@@ -849,6 +861,10 @@
     {
       "source": "/presentations/2026/07-28/takashi",
       "target": "/presentations/2025/02-12/takashi"
+    },
+    {
+      "source": "/presentations/2026/08-12/kazukichi",
+      "target": "/presentations/2026/05-14/kazukichi"
     }
   ]
 }
