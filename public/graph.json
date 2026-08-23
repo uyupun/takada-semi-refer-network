@@ -635,6 +635,18 @@
       "title": "Template APIで変わるCode Connect",
       "path": "/presentations/2026/08-12/takashi",
       "author": "takashi"
+    },
+    {
+      "id": "/presentations/2026/08-19/kazukichi",
+      "title": "静謐な武装の顕現",
+      "path": "/presentations/2026/08-19/kazukichi",
+      "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/08-19/takashi",
+      "title": "TextField のスクロールバーを制御する",
+      "path": "/presentations/2026/08-19/takashi",
+      "author": "takashi"
     }
   ],
   "links": [
