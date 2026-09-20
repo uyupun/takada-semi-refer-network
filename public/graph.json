@@ -671,6 +671,12 @@
       "title": "Bambu Lab A1 miniを購入した",
       "path": "/presentations/2026/09-07/takashi",
       "author": "takashi"
+    },
+    {
+      "id": "/presentations/2026/09-16/kazukichi",
+      "title": "梅干しを漬けてみた",
+      "path": "/presentations/2026/09-16/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
@@ -901,6 +907,10 @@
     {
       "source": "/presentations/2026/08-12/kazukichi",
       "target": "/presentations/2026/05-14/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/09-16/kazukichi",
+      "target": "/presentations/2026/08-26/kazukichi"
     }
   ]
 }
