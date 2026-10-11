@@ -689,6 +689,18 @@
       "title": "犬を飼うためにやること",
       "path": "/presentations/2026/09-24/takashi",
       "author": "takashi"
+    },
+    {
+      "id": "/presentations/2026/10-05/kazukichi",
+      "title": "反転する地平、明滅する土着",
+      "path": "/presentations/2026/10-05/kazukichi",
+      "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/10-05/takashi",
+      "title": "生成AIを活用した開発でよく使うファイルとコマンド",
+      "path": "/presentations/2026/10-05/takashi",
+      "author": "takashi"
     }
   ],
   "links": [
@@ -923,6 +935,10 @@
     {
       "source": "/presentations/2026/09-16/kazukichi",
       "target": "/presentations/2026/08-26/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/10-05/kazukichi",
+      "target": "/presentations/2026/08-19/kazukichi"
     }
   ]
 }
