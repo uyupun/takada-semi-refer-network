@@ -40,7 +40,7 @@
       buildAuthorColors(),
     ]);
 
-    new ForceGraph<Node>(container)
+    const graph = new ForceGraph<Node>(container)
       .graphData(data)
       .nodeColor((node) => authorColors[node.author ?? ''] ?? '#aaaaaa')
       .linkDirectionalArrowLength(6)
@@ -61,6 +61,9 @@
         const dateAuthor = extractDateAuthor(node.path);
         if (dateAuthor) ctx.fillText(dateAuthor, node.x, node.y + labelOffset + lines.length * lineHeight);
       });
+
+    // 近くのノード同士だけ強く反発させ、塊同士の重なりを防ぎつつ全体が広がりすぎないようにする
+    graph.d3Force('charge')?.strength(-60).distanceMax(300);
   });
 </script>
 
