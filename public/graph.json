@@ -701,6 +701,12 @@
       "title": "生成AIを活用した開発でよく使うファイルとコマンド",
       "path": "/presentations/2026/10-05/takashi",
       "author": "takashi"
+    },
+    {
+      "id": "/presentations/2026/10-15/kazukichi",
+      "title": "自作ナレッジ基盤の構築",
+      "path": "/presentations/2026/10-15/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
@@ -939,6 +945,18 @@
     {
       "source": "/presentations/2026/10-05/kazukichi",
       "target": "/presentations/2026/08-19/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/10-15/kazukichi",
+      "target": "/presentations/2025/07-02/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/10-15/kazukichi",
+      "target": "/presentations/2026/05-19/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/10-15/kazukichi",
+      "target": "/presentations/2025/08-20/kazukichi"
     }
   ]
 }
