@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import ForceGraph, { type NodeObject } from 'force-graph';
+  import { forceSeparateLinks } from './separateLinks';
 
   type Node = NodeObject & {
     title: string;
@@ -62,8 +63,9 @@
         if (dateAuthor) ctx.fillText(dateAuthor, node.x, node.y + labelOffset + lines.length * lineHeight);
       });
 
-    // 近くのノード同士だけ強く反発させ、塊同士の重なりを防ぎつつ全体が広がりすぎないようにする
+    // 近くのノード同士だけ強く反発させ、全体が広がりすぎないようにする
     graph.d3Force('charge')?.strength(-60).distanceMax(300);
+    graph.d3Force('separateLinks', forceSeparateLinks(data.links));
   });
 </script>
 
