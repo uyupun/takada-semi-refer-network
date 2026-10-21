@@ -20,6 +20,8 @@
   ];
   const UNKNOWN_AUTHOR_COLOR = '#aaaaaa';
   const ARROW_LENGTH = 6;
+  // ノードの丸の半径。描画（nodeRelSize）とクリック判定の両方で使う
+  const NODE_RADIUS = 4;
 
   // 近くのノード同士だけ強く反発させ、全体が広がりすぎないようにする
   const CHARGE_STRENGTH = -60;
@@ -64,6 +66,16 @@
     lines.forEach((line, i) => ctx.fillText(line, x, y + LABEL_OFFSET_Y + i * LABEL_LINE_HEIGHT));
   }
 
+  // 画面上の位置にあるノードを、座標の計算で探す
+  function nodeAt(graph: ForceGraph<GraphNode>, event: MouseEvent): GraphNode | undefined {
+    const rect = container.getBoundingClientRect();
+    const { x, y } = graph.screen2GraphCoords(event.clientX - rect.left, event.clientY - rect.top);
+    return graph.graphData().nodes.find((node) => {
+      if (node.x === undefined || node.y === undefined) return false;
+      return Math.hypot(node.x - x, node.y - y) <= NODE_RADIUS;
+    });
+  }
+
   onMount(async () => {
     const [data, authorColors] = await Promise.all([
       fetch(import.meta.env.BASE_URL + 'graph.json').then((res) => res.json()),
@@ -73,13 +85,28 @@
     const graph = new ForceGraph<GraphNode>(container)
       .graphData(data)
       .nodeColor((node) => authorColors[node.author ?? ''] ?? UNKNOWN_AUTHOR_COLOR)
+      .nodeRelSize(NODE_RADIUS)
       .linkDirectionalArrowLength(ARROW_LENGTH)
       // 矢印をリンクの終点（リンク先のノード側）に付ける
       .linkDirectionalArrowRelPos(1)
-      .onNodeClick((node) => window.open(`${SITE_URL}${node.path}`, '_blank'))
       // ノードの丸は標準のまま描き、その後にラベルを重ねて描く
       .nodeCanvasObjectMode(() => 'after')
-      .nodeCanvasObject(drawLabel);
+      .nodeCanvasObject(drawLabel)
+      // force-graph 標準の当たり判定は、裏のキャンバスに描いた色を読み取ってノードを見分ける。
+      // Brave の指紋対策は読み取った色にノイズを混ぜるので、判定が外れてクリックが効かなくなる。
+      // そのため標準の判定は止め、クリックは onBackgroundClick で受けて nodeAt で判定する
+      // （onBackgroundClick を使うのは、背景のドラッグ＝パンをクリックと区別してくれるため）
+      .enablePointerInteraction(false)
+      .enableNodeDrag(false)
+      .onBackgroundClick((event) => {
+        const node = nodeAt(graph, event);
+        if (node) window.open(`${SITE_URL}${node.path}`, '_blank');
+      });
+
+    // 標準の判定を止めるとノード上の指カーソルも出なくなるので、自前で切り替える
+    container.addEventListener('pointermove', (event) => {
+      container.style.cursor = nodeAt(graph, event) ? 'pointer' : '';
+    });
 
     graph.d3Force('charge')?.strength(CHARGE_STRENGTH).distanceMax(CHARGE_DISTANCE_MAX);
     graph.d3Force('separateLinks', forceSeparateLinks(data.links));
