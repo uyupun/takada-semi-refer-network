@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import ForceGraph, { type NodeObject } from 'force-graph';
+  import { idOf, type Link } from './linkEnds';
   import { forceSeparateLinks } from './separateLinks';
 
   type GraphNode = NodeObject & {
@@ -27,6 +28,10 @@
   const CHARGE_STRENGTH = -60;
   const CHARGE_DISTANCE_MAX = 300;
 
+  // 被リンク数はノードの丸の中に描く
+  const IN_LINK_COUNT_FONT = 'bold 4px sans-serif';
+  const IN_LINK_COUNT_COLOR = '#ffffff';
+
   // ラベルはグラフ座標で描くので、ズームに合わせて拡大縮小される
   const LABEL_FONT = '2px sans-serif';
   const LABEL_COLOR = '#000000';
@@ -42,6 +47,31 @@
       acc[author] = COLOR_PALETTE[i % COLOR_PALETTE.length];
       return acc;
     }, {} as Record<string, string>);
+  }
+
+  // ノードの ID ごとに、リンク先として指されている数を数える
+  function countInLinks(links: Link[]): Map<string, number> {
+    const counts = new Map<string, number>();
+    links.forEach((link) => {
+      const id = idOf(link.target);
+      counts.set(id, (counts.get(id) ?? 0) + 1);
+    });
+    return counts;
+  }
+
+  // 0 は描かない（全ノードに 0 が並ぶと見づらいため）
+  function drawInLinkCount(node: GraphNode, count: number, ctx: CanvasRenderingContext2D) {
+    const { x, y } = node;
+    if (x === undefined || y === undefined || count === 0) return;
+
+    // 文字の縦位置の設定がラベルの描画に持ち越されないよう、描き終えたら元に戻す
+    ctx.save();
+    ctx.font = IN_LINK_COUNT_FONT;
+    ctx.fillStyle = IN_LINK_COUNT_COLOR;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(String(count), x, y);
+    ctx.restore();
   }
 
   function wrapTitle(title: string): string[] {
@@ -82,6 +112,8 @@
       fetchAuthorColors(),
     ]);
 
+    const inLinkCounts = countInLinks(data.links);
+
     const graph = new ForceGraph<GraphNode>(container)
       .graphData(data)
       .nodeColor((node) => authorColors[node.author ?? ''] ?? UNKNOWN_AUTHOR_COLOR)
@@ -89,9 +121,12 @@
       .linkDirectionalArrowLength(ARROW_LENGTH)
       // 矢印をリンクの終点（リンク先のノード側）に付ける
       .linkDirectionalArrowRelPos(1)
-      // ノードの丸は標準のまま描き、その後にラベルを重ねて描く
+      // ノードの丸は標準のまま描き、その後に被リンク数とラベルを重ねて描く
       .nodeCanvasObjectMode(() => 'after')
-      .nodeCanvasObject(drawLabel)
+      .nodeCanvasObject((node, ctx) => {
+        drawInLinkCount(node, inLinkCounts.get(String(node.id)) ?? 0, ctx);
+        drawLabel(node, ctx);
+      })
       // force-graph 標準の当たり判定は、裏のキャンバスに描いた色を読み取ってノードを見分ける。
       // Brave の指紋対策は読み取った色にノイズを混ぜるので、判定が外れてクリックが効かなくなる。
       // そのため標準の判定は止め、クリックは onBackgroundClick で受けて nodeAt で判定する

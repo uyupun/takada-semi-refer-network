@@ -1,8 +1,6 @@
 import type { NodeObject } from 'force-graph';
+import { idOf, type Link } from './linkEnds';
 
-// force-graph は graphData を受け取ると source/target を ID からノードに置き換えるので、どちらでも受け付ける
-type LinkEnd = string | NodeObject;
-type Link = { source: LinkEnd; target: LinkEnd };
 type LinkIds = { source: string; target: string };
 type Point = { x: number; y: number };
 type Segment = { from: NodeObject; to: NodeObject; cluster: NodeObject[] };
@@ -11,10 +9,6 @@ type Segment = { from: NodeObject; to: NodeObject; cluster: NodeObject[] };
 const LINK_MARGIN = 10;
 // 配置がほぼ落ち着いてから働かせる。最初は全ノードが固まっていて交差だらけなので、そこで押すと大きな塊が遠くへ弾き飛ばされる
 const ACTIVE_ALPHA = 0.1;
-
-function idOf(end: LinkEnd): string {
-  return String(typeof end === 'object' ? end.id : end);
-}
 
 // Union-Find で、リンクで繋がったノードの集まり（塊）ごとに同じIDを返す関数を作る
 function buildClusterIdOf(ids: string[], links: LinkIds[]): (id: string) => string {
