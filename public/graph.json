@@ -707,6 +707,12 @@
       "title": "自作ナレッジ基盤の構築",
       "path": "/presentations/2026/10-15/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/10-22/kazukichi",
+      "title": "∂hosts ─ 幽霊文字生成環境【思想編】",
+      "path": "/presentations/2026/10-22/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
@@ -957,6 +963,10 @@
     {
       "source": "/presentations/2026/10-15/kazukichi",
       "target": "/presentations/2025/08-20/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/10-22/kazukichi",
+      "target": "/presentations/2026/10-05/kazukichi"
     }
   ]
 }
