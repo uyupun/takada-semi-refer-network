@@ -22,6 +22,6 @@
   "dependencies": {
     "force-graph": "^1.52.0",
     "node-html-parser": "^7.1.0",
-    "tsx": "^4.21.0"
+    "tsx": "^4.23.15"
   }
 }
