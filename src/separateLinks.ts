@@ -40,22 +40,19 @@ function groupByCluster(
   return clusters;
 }
 
-function getOrThrow<K, V>(map: Map<K, V>, key: K): V {
-  const value = map.get(key);
-  if (value === undefined) throw new Error(`missing key: ${String(key)}`);
-  return value;
-}
-
 // リンクごとに、両端のノードと属する塊をまとめる
+// force-graph はデータを反映する前に、空のノード一覧で initialize を呼ぶことがある。
+// そのときは端のノードが見つからないので、そのリンクは飛ばす（データ反映後に改めて initialize される）
 function buildSegments(nodes: NodeObject[], linkIds: LinkIds[]): Segment[] {
   const nodeById = new Map(nodes.map((node) => [String(node.id), node]));
   const clusterIdOf = buildClusterIdOf([...nodeById.keys()], linkIds);
   const clusters = groupByCluster(nodes, clusterIdOf);
-  return linkIds.map(({ source, target }) => ({
-    from: getOrThrow(nodeById, source),
-    to: getOrThrow(nodeById, target),
-    cluster: getOrThrow(clusters, clusterIdOf(source)),
-  }));
+  return linkIds.flatMap(({ source, target }) => {
+    const from = nodeById.get(source);
+    const to = nodeById.get(target);
+    const cluster = clusters.get(clusterIdOf(source));
+    return from && to && cluster ? [{ from, to, cluster }] : [];
+  });
 }
 
 function closestPointOnSegment(p: Point, a: Point, b: Point): Point {
