@@ -1,9 +1,10 @@
+import { writeFileSync } from "node:fs";
 import { parse } from "node-html-parser";
-import { writeFileSync } from "fs";
 
 const BASE_URL = "https://semi.uyupun.tech";
 const SITEMAP_URL = `${BASE_URL}/sitemap-0.xml`;
-const MEMBERS_URL = "https://raw.githubusercontent.com/uyupun/takada-semi/refs/heads/main/src/data/members.json";
+const MEMBERS_URL =
+  "https://raw.githubusercontent.com/uyupun/takada-semi/refs/heads/main/src/data/members.json";
 
 type Node = {
   id: string;
@@ -37,7 +38,7 @@ function extractLinks(html: string): string[] {
   return root
     .querySelectorAll(".sl-markdown-content a[href]")
     .map((a) => {
-      const href = a.getAttribute("href")!.split("#")[0];
+      const href = (a.getAttribute("href") ?? "").split("#")[0];
       if (href.startsWith(BASE_URL)) return href.slice(BASE_URL.length);
       return href;
     })
@@ -50,7 +51,9 @@ function extractAuthor(path: string, members: Set<string>): string | null {
   return members.has(lastSegment) ? lastSegment : null;
 }
 
-async function fetchPage(path: string): Promise<{ title: string; links: string[] }> {
+async function fetchPage(
+  path: string,
+): Promise<{ title: string; links: string[] }> {
   const res = await fetch(BASE_URL + path);
   const html = await res.text();
   return { title: extractTitle(html), links: extractLinks(html) };
