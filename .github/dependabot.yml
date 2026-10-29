@@ -1,0 +1,25 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 20
+    allow:
+      - dependency-type: "direct"
+    versioning-strategy: "increase"
+    rebase-strategy: "auto"
+    groups:
+      # vite-plugin-svelte は svelte と vite の両方に peer 依存するため一緒に上げる
+      svelte:
+        patterns:
+          - "svelte"
+          - "@sveltejs/vite-plugin-svelte"
+          - "vite"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 20
+    rebase-strategy: "auto"
