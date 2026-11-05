@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "force-graph": "1.52.0",
-    "node-html-parser": "9.0.5",
+    "node-html-parser": "9.0.6",
     "tsx": "4.23.15"
   }
 }
