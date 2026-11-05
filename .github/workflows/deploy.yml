@@ -5,8 +5,10 @@ on:
     branches:
       - main
   workflow_run:
+    # GITHUB_TOKENによるpushではpushイベントが発火しないため、mainへpushするワークフローの完了を契機にする
     workflows:
       - Sync graph data
+      - Dependabot auto-merge
     types:
       - completed
   workflow_dispatch:
@@ -19,6 +21,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
