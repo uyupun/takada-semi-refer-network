@@ -713,6 +713,12 @@
       "title": "∂hosts ─ 幽霊文字生成環境【思想編】",
       "path": "/presentations/2026/10-22/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/11-04/kazukichi",
+      "title": "∂hosts ─ 幽霊文字生成環境【技術編】",
+      "path": "/presentations/2026/11-04/kazukichi",
+      "author": "kazukichi"
     }
   ],
   "links": [
@@ -967,6 +973,10 @@
     {
       "source": "/presentations/2026/10-22/kazukichi",
       "target": "/presentations/2026/10-05/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/11-04/kazukichi",
+      "target": "/presentations/2026/10-22/kazukichi"
     }
   ]
 }
