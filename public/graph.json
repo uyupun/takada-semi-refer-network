@@ -719,6 +719,18 @@
       "title": "∂hosts ─ 幽霊文字生成環境【技術編】",
       "path": "/presentations/2026/11-04/kazukichi",
       "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/11-20/kazukichi",
+      "title": "RunPodでAIモデルを学習させてみよう",
+      "path": "/presentations/2026/11-20/kazukichi",
+      "author": "kazukichi"
+    },
+    {
+      "id": "/presentations/2026/11-20/takashi",
+      "title": "Apple Developer Program の証明書・プロファイル・Keys まとめ",
+      "path": "/presentations/2026/11-20/takashi",
+      "author": "takashi"
     }
   ],
   "links": [
@@ -977,6 +989,14 @@
     {
       "source": "/presentations/2026/11-04/kazukichi",
       "target": "/presentations/2026/10-22/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/11-20/kazukichi",
+      "target": "/presentations/2026/11-04/kazukichi"
+    },
+    {
+      "source": "/presentations/2026/11-20/takashi",
+      "target": "/presentations/2025/10-08/takashi"
     }
   ]
 }
